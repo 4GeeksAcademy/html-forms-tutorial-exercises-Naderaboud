@@ -1,0 +1,54 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(14, 41, 117);
+}
+
+.login {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	padding: 0;
+	background-color: rgb(14, 41, 117);
+	width: 100vw;
+	height: 100vh;
+}
+
+form {
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	width: 500px;
+}
+
+.login form * {
+	margin: 12px 0 0 0;
+}
+
+.login h1 {
+	display: flex;
+	justify-content: center;
+	color: aliceblue;
+}
+
+input {
+	width: 400px;
+	height: 50px;
+	font-size: 15px;
+	align-content: center;
+
+	background-color: rgb(7, 38, 87);
+	border: 1px solid rgb(5, 26, 51);
+	width: inherit;
+
+	border-radius: 2px;
+}
+
+.btn {
+	background-color: rgb(71, 116, 215);
+	color: white;
+	border-radius: 2px;
+}
